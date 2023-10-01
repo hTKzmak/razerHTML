@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razer | Main page</title>
+    <link rel="shortcut icon" href="./icons/logo/razer-green-logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- nav используется в качестве боковой части меню при использовании сайта на ПК (как в макете), внутри которой находятся кнопки и логотип. Сами кнопки при нажатии будут показывать другие товары -->
+    <nav>
+        <img src="./icons/logo/Razer_logo.svg" alt="" width="125px">
+        <ul>
+            <li><button>Exclusive</button></li>
+            <li><button>Mouses</button></li>
+            <li><button>Keyboards</button></li>
+            <li><button>Headphones</button></li>
+            <li><button>Mouse Mats</button></li>
+            <li><button>Systems</button></li>
+            <li><button>Broadcaster</button></li>
+            <li><button>Accesoires</button></li>
+            <li><button>Gear</button></li>
+            <li><button>Software</button></li>
+        </ul>
+    </nav>
+    <!-- Main используется как основной контент сайта, в котором находится header, section и footer-->
+    <main>
+        <!-- Header используется для создания панели, в котором есть поиск, список и кнопки (настройки и корзина) -->
+        <header>
+            <div class="menu-search">
+                <input type="search" name="search" id="search" placeholder="Search for a object">
+                <select name="select" id="choose-list">
+                    <option value="Popular">Popular</option>
+                    <option value="Most liked">Most liked</option>
+                    <option value="On sale">On sale</option>
+                </select>
+            </div>
+            <div class="menu-buttons">
+                <button><img src="./icons/settings.svg"></button>
+                <button><img src="./icons/cart.png"></button>
+            </div>
+        </header>
+        <!-- Secion используется для создания основкой части страницы сайта, в котором находятся товары в виде блоков -->
+        <section>
+            <!-- blocks_first-part и blocks_second-part нужны для разделения блоков на части, в первой части находятся длинные блоки и большой блок, а во второй части находятся маленькие блоки -->
+            <div class="blocks_first-part">
+                <div class="big-block">
+                    <img src="./img/nabu.png">
+                    <!-- article используется для того, чтобы хранить информацию о товаре (название, цена и описание) -->
+                    <article>
+                        <h3>Razer nabu smartband</h3>
+                        <h4>USD $99</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio autem quis.
+                        </p>
+                    </article>
+                </div>
+                <div class="long-blocks">
+                    <div class="long-block">
+                        <img src="./img/mamba.png">
+                        <article>
+                            <h3>Razer mamba pro</h3>
+                            <h4>USD $347</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </article>
+                    </div>
+                    <div class="long-block">
+                        <img src="./img/kraken-v2.png">
+                        <article>
+                            <h3>Razer kraken v2</h3>
+                            <h4>USD $137</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="blocks_second-part">
+                <div class="mini-block">
+                    <img src="./img/ornata-v3.png">
+                    <article>
+                        <h3>Razer ornata v3</h3>
+                        <h4>USD $125</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                </div>
+                <div class="mini-block">
+                    <img src="./img/razer-kraken-kitty-edition.png">
+                    <article>
+                        <h3>Razer kr. kitty</h3>
+                        <h4>USD $300</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                </div>
+                <div class="mini-block">
+                    <img src="./img/razer-deathadder-v2-pro.png">
+                    <article>
+                        <h3>Razer deathad...</h3>
+                        <h4>USD $235</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                </div>
+                <div class="mini-block">
+                    <img src="./img/razer-firefly-v2-product.png">
+                    <article>
+                        <h3>Razer firefly</h3>
+                        <h4>USD $261</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- footer используется в качесте подвала сайта, в котором будет находитья дополнительная информация в виде ссылок и копирайта -->
+        <footer>
+            <div class="links">
+                <a href="#"><img src="./icons/social-media/facebook.svg"></a>
+                <a href="#"><img src="./icons/social-media/twitter.svg"></a>
+                <a href="#"><img src="./icons/social-media/instagram.svg"></a>
+            </div>
+            <p>Copyright ©2023 <a href="#">Razer Inc.</a> All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+
+</html>
